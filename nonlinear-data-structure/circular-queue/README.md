@@ -7,5 +7,3 @@
   - 첫번째 데이터/사이즈/전체 삭제: CirqularQueue.front(), CircularQueue.size(), CircularQueue.clear()
 
 
-
-![image](https://user-images.githubusercontent.com/121809824/227212470-16a97d18-9b7a-4703-95a9-9e28d04a9956.png)
