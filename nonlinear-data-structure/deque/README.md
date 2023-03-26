@@ -1,15 +1,14 @@
 # 데크 (deque)
 
-- 원형 형태를 가지며, 먼저 넣은 데이터가 먼저 나오는 FIFO(First In First Out) 기반의 선형 자료 구조
+- Double-Ended Queue의 약자로 삽입과 삭제가 양쪽끝에서 모두 발생할 수 있는 선형 자료 구조
 - 구현 메서드 (method)
-  - 데이터 확인 method: CirqularQueue.isEmpty(), CircularQueue.isFull()
-  - 데이터 추가/삭제/반환: CirqularQueue.enqueue(), CircularQueue.dequeue(), CircularQueue.getBuffer()
-  - 첫번째 데이터/사이즈/전체 삭제: CirqularQueue.front(), CircularQueue.size(), CircularQueue.clear()
+  - 데이터 전체 획득/ 비어있는지 확인: Deque.getBuffer(), Deque.isEmpty()
+  - 데이터 추가/삭제: Deque.pushFront(), Deque.popFront(), Deque.pushBack(), Deque.popBack()
+  - 첫번째 & 끝 데이터 반환/사이즈/ 전체삭제: Deque.front(), Deque.back(), Deque.size(), Deque.clear()
 
 
 --- 
 
-![image](https://user-images.githubusercontent.com/121809824/227263799-0c81e229-72c7-432e-ba20-adbc0c53ca9f.png)
-
+![image](https://user-images.githubusercontent.com/121809824/227762054-594f0e1a-001d-4bcf-8f51-bcdaf5c0a883.png)
 
 
