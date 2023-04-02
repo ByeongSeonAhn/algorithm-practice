@@ -17,10 +17,13 @@
 
 # 해시테이블 (Hash Table)
 
-- 임의의 길이의 데이터를 고정된 길이의 데이터로 매핑하는 함수
-- 우선순위 정렬방식: 배열 기반, 연결리스트 기반, 힙(Heap) 기반 등의 정렬 방식 존재
+- Hash 함수를 사용하여 평균 O(1) 시간 복잡도로 특정 값을 시속하게 찾는 자료구조
+- 충돌(Collision) 해결 방법 
+  - 해시 함수 변경: 더 큰 숫자의 공간과 Modular 산술 값을 이용해 충돌 최소화
+  - 자료구조 확장: Open Addressing Method (선형 조사법, 이중해시) , Close Addressing Method(체이닝)
 - 구현 메서드 (method)
-  - 데이터 전체 획득/ 비어있는지 확인: PriorityQueue.getBuffer(), PriorityQueue.Empty()
-  - 데이터 추가/삭제: PriorityQueue.enqueue(), PriorityQueue.dequeue();
-  - 첫번째 데이터/ 사이즈 /전체 삭제: PriorityQueue.front(), PriorityQueue.size(), PriorityQueue.clear()
+  - 객체초기화/ 크기반환: HashTable.clear(), HashTable.size()
+  - 전체 데이터 반환/전체 데이터 출력: HashTable.getBuffer(), HashTable.print();
+  - 데이터 추가/ 삭제 /반환: HashTable.put(), HashTable.remove(), HashTable.get()
 
+![image](https://user-images.githubusercontent.com/121809824/229341325-be691414-e846-4ae4-ac0a-c42a5953cfe8.png)
