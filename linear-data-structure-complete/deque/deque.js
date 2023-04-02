@@ -33,13 +33,34 @@ Deque.prototype.popBack = function () {
   return this.array.pop();
 };
 
+// front(): 가장 첫 데이터 반환
+Deque.prototype.front = function () {
+  return this.array.length === 0 ? undefined : this.array[0];
+};
+
+// back(): 가장 끝 데이터 번환
+Deque.prototype.back = function () {
+  return this.array.length === 0
+    ? undefined
+    : this.array[this.array.length - 1];
+};
+
+// size(): 큐 내 데이터 개수 확인
+Deque.prototype.size = function () {
+  return this.array.length;
+};
+
+// clear(): 큐 초기화
+Deque.prototype.clear = function () {
+  this.array = [];
+};
+
 let dq = new Deque([1, 2, 3]);
 console.log(dq);
 
-dq.pushFront(0);
-dq.pushBack(4);
-console.log(dq);
+console.log(dq.front());
+console.log(dq.back());
+console.log(dq.size());
 
-console.log(dq.popFront());
-console.log(dq.popBack());
+dq.clear();
 console.log(dq);
