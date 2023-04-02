@@ -7,3 +7,4 @@
   - key, value 배열 반환/ 고차 함수: Dictionary.keys(), Dictionary.values(), Dictionary.each()
 
 --- 
+![image](https://user-images.githubusercontent.com/121809824/229336302-58ebf449-1957-4be5-b04b-3b8212d96f07.png)
