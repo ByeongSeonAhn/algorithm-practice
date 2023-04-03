@@ -8,7 +8,7 @@
   - 단말 노드(Leaf node) : 자식이 없는 노드
   - 부모 노드(Parent node) : 특정 Sub-Tree 내에서의 하위 노드
   - 자식 노드(Child node) : 특정 Sub-Tree 내에서의 하위 노드
-  - 형제 (Sibling) : 부모가 없는 최상위 노드
+  - 형제 (Sibling) : 같은 부모를 가르키는 노드
 
 
 --- 
