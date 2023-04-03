@@ -11,7 +11,7 @@
   - 형제 (Sibling) : 같은 부모를 가르키는 노드
 
 
---- 
+
 ![image](https://user-images.githubusercontent.com/121809824/229544727-afcf1f3e-3fad-43f4-8e93-f4fe3eee4255.png)
 
 
@@ -20,7 +20,12 @@
   - 주요특징: '최소 연결 트리'로 불림, 계층 모델, 방향 비순환 그래프(DAG:Directed Acyclic Graph) 한 종류
   - 트리종류: 이진트리, 이진탐색트리, AVL, 트리, 힙(Heap) 
   - 용어
-    - 노드크기(size): 자신을 
+    - 노드크기(size): 자신을 포함한 모든 자손 노드의 개수
+    - 노드 깊이(depth): 루트에서 특정 노드에 도달하기 위한 간선의 개수
+    - 노드 레벨(level): 트리의 특정 깊이를 가지는 노드의 집합
+    - 노드 차수(degree): 노드가 지닌 가지의 수
+    - 트리 차수(tree degree): 트리의 최대 차수 
+    - 트리 높이(height): 루트 노드에서 가장 깊숙이 있는 노드의 
 
 
 ![image](https://user-images.githubusercontent.com/121809824/229547683-83061215-13ef-4190-ba72-2fe082d4c498.png)
