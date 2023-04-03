@@ -19,9 +19,10 @@
 - 트리 특징
   - 주요특징: '최소 연결 트리'로 불림, 계층 모델, 방향 비순환 그래프(DAG:Directed Acyclic Graph) 한 종류
   - 트리종류: 이진트리, 이진탐색트리, AVL, 트리, 힙(Heap) 
+  - 용어
+    - 노드크기(size): 자신을 
 
 
---- 
 ![image](https://user-images.githubusercontent.com/121809824/229547683-83061215-13ef-4190-ba72-2fe082d4c498.png)
 
 
