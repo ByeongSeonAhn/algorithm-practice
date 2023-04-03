@@ -14,4 +14,11 @@
 --- 
 ![image](https://user-images.githubusercontent.com/121809824/229544727-afcf1f3e-3fad-43f4-8e93-f4fe3eee4255.png)
 
+--- 
+- 트리 특징
+  - 주요특징: '최소 연결 트리'로 불림, 계층 모델, 방향 비순환 그래프(DAG:Directed Acyclic Graph) 한 종류
+  - 트리종류: 이진트리, 이진탐색트리, AVL, 트리, 힙(Heap) 
+
+
+--- 
 
