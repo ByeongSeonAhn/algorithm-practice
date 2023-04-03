@@ -18,6 +18,7 @@ LinearHashTable.prototype.hashCode = function (key) {
   for (let i = 0; i < key.length; i++) {
     hash += key.charCodeAt(i);
   }
+
   return hash % HASH_SIZE;
 };
 

@@ -22,6 +22,7 @@ HashTable.prototype.hashCode = function (key) {
 
 HashTable.prototype.put = function (key) {
   let index = this.hashCode(key);
+  console.log(`key: ${key} -> index: ${index}`)
   let startIndex = index;
 
   do {
@@ -32,7 +33,11 @@ HashTable.prototype.put = function (key) {
     }
 
     index = (index + 1) % this.size;
+    console.log("")
+    console.log(`key: ${key} -> index: ${index}`)
   } while (index !== startIndex);
+
+
 };
 
 HashTable.prototype.get = function (key) {
